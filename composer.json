@@ -1,0 +1,26 @@
+{
+  "name": "mazanax/fpdi_with_links",
+  "description": "FPDI Driver with support of links functionality",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Alexander Gorshkov",
+      "email": "me@mazanax.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "setasign/fpdi": "v2.2.0",
+    "tecnickcom/tcpdf": "~6.2"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "MZ\\FPDI\\": "src/"
+    }
+  }
+}
